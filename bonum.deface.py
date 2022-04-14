@@ -13,9 +13,9 @@ class colors:
 banner = ("""
                                                                                                                 
 
-                █▀▀▄ █▀▀ ── █▀▀▄ █▀▀ █▀▀ █▀▀█ █▀▀ █▀▀ █▀▀█ 
-                █──█ ▀▀█ ▀▀ █──█ █▀▀ █▀▀ █▄▄█ █── █▀▀ █▄▄▀ 
-                ▀──▀ ▀▀▀ ── ▀▀▀─ ▀▀▀ ▀── ▀──▀ ▀▀▀ ▀▀▀ ▀─▀▀    v1.0 """)
+                 █▀▀▄ █▀▀ █▀▀ █▀▀█ █▀▀ █▀▀ █▀▀█ 
+                 █──█ █▀▀ █▀▀ █▄▄█ █── █▀▀ █▄▄▀ 
+                 ▀▀▀─ ▀▀▀ ▀── ▀──▀ ▀▀▀ ▀▀▀ ▀─▀▀    v1.0 """)
                                                                                                                                                                                                                        
                                                                                                                                                                                                                        
 for col in banner:
@@ -24,9 +24,9 @@ for col in banner:
     time.sleep(0.0025)
 
 x = ("""
-                Author:  TheNightSec | NS-ROOT
-                Github:  https://github.com/TheNightSec
-                Website: https://NightSec.Tech \n """)
+                DEFACE BY:  BONUMMASTER | NS-ROOT
+                Github:  https://github.com/bonummaster
+                Website: https://hackerone.com \n """)
 for col in x:
     print(colors.CBLUE2 + col, end="")
     sys.stdout.flush()
@@ -47,7 +47,7 @@ for col in z:
 def main():
 	list= "list.txt"
 	opened=open(list,"r")
-	d= "index.html"
+	d= ".html"
 	data=open(d).read()
 	d="/"+d
 	for i in opened:
