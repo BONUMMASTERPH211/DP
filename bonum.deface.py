@@ -47,7 +47,7 @@ for col in z:
 def main():
 	list= "list.txt"
 	opened=open(list,"r")
-	d= ".html"
+	d= "EXFO_LTD.html"
 	data=open(d).read()
 	d="/"+d
 	for i in opened:
